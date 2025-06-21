@@ -1,0 +1,138 @@
+body {
+  background-color:rgb(112, 6, 6);
+  font-family: bold, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center {
+  text-align: center;
+}
+.navbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 50px;
+    padding:10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom,
+    rgba(189, 12, 12, 0.7) 0%,
+    rgba(238, 4, 4, 0)100%
+    );
+    z-index: 100;
+    transition:background-color 0.3s;
+    
+}
+.navbar{
+    background-color: #141414;
+
+
+}
+.logo{
+    height: 25px;
+    cursor:pointer;
+
+}
+.navbar-nav{
+    display: flex;
+    gap: 20px;
+}
+.nav-link{
+    color:#e5e5e5;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+.nav-link:hover{
+    color:#b3b3b3;
+
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.okay{
+    border:2px;
+    background-color: #e50914;
+    padding:1px;
+    margin:auto;
+    align-items: center;
+}
+
+.navbar-right i{
+    font-size:20px;
+    cursor: pointer;
+
+}
+.profile-icon{
+    width:32px;
+    height: 32px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-in-btn {
+  background-color: #1169ce;
+  color: blue;
+  border: none;
+  padding: 40px 38px;
+  font-size: 16px;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sign-in-btn:hover {
+  background-color: #357ab7;
+}
+
+.form-container {
+  background: white;
+  padding: 100px;
+  border-radius: 60px;
+  box-shadow: 2 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-top:50px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 18px;
+}
+
+.form-container button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 18px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #357ab7;
+}
+fieldset {
+  border: 2px solid #4a90e2;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+legend {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4a90e2;
+  padding: 0 12px;
+}
+label{
+    padding:10px;
+}
